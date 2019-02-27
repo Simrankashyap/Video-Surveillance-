@@ -50,13 +50,7 @@ var socket = io.connect('http://localhost:4000');
             contextSource.drawImage(video, 0,0,video.width,video.height);
             outer.innerHTML += '<p><strong>' + data+ ': </strong></p>';
 
-        //contextSource.drawImage(video, 0,0,video.width,video.height);
-        // while(i<100){
-        //
-        // socket.on('difference', function(data){
-        //     contextSource.drawImage(video, 0,0,video.width,video.height);
-        //     outer.innerHTML += '<p><strong>' + i+ data+ ': </strong></p>';
-        //     i++;
+       
         });
     }
 
